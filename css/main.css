@@ -1,0 +1,24 @@
+* { margin: 0; padding: 0; }
+
+html { 
+  background: #666 url(books.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 18px; 
+  color: #F0F0F0;
+}
+
+.content { margin: 0 auto; max-width: 800px; text-align: center; }
+em { font-style: normal; color: #F85051;  }
+
+h1, h2 { 
+  text-transform: uppercase; 
+  font-family: 'Yanone Kaffeesatz', sans-serif; 
+  line-height: 0.9; 
+  text-shadow: #111 2px 2px 5px;
+}
+h1 { font-size: 5em; padding-top: 25%; }
+h2 { font-size: 3em; margin: 18px 0;}
+
