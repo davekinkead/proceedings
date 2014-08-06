@@ -8,6 +8,7 @@ html {
   background-size: cover;
   font-size: 18px; 
   color: #F0F0F0;
+  font: sans-serif;
 }
 
 .content { margin: 0 auto; max-width: 800px; text-align: center; }
@@ -21,4 +22,10 @@ h1, h2 {
 }
 h1 { font-size: 5em; padding-top: 25%; }
 h2 { font-size: 3em; margin: 18px 0;}
+
+footer { 
+  position: absolute; bottom: 10px; right: 10px; text-align: right; 
+  font-size: .8em; 
+}
+footer a { color: #CCC; text-decoration: none;}
 
